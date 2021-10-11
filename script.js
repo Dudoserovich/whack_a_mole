@@ -4,7 +4,7 @@ let press_replay = document.querySelector('.buttons .replay');
 
 let holes = document.querySelectorAll('.hole');
 
-let time = 5;
+let time = 60;
 let points = 0;
 let timerId;
 
