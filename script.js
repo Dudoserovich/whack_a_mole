@@ -24,7 +24,7 @@ function play() {
 
     const startGame = setInterval(() => {
         if (is_focus === 1) {
-            let arrayNo = Math.floor(Math.random() * 11);
+            let arrayNo = Math.floor(Math.random() * 12);
 
             hole = holes[arrayNo];
 
